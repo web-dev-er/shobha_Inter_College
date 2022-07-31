@@ -1,0 +1,126 @@
+.glyphicon
+{
+    margin-right:4px !important; /*override*/
+}
+
+.pagination .glyphicon
+{
+    margin-right:0px !important; /*override*/
+}
+
+.pagination a
+{
+    color:#555;
+}
+
+.panel ul
+{    padding: 11px;
+    margin: 0px;
+    list-style: none;
+  
+  }
+
+.news-item
+{   padding: 0px;
+    margin-bottom: 5px;
+    border-bottom: 1px dotted #fff;
+    padding-bottom: 5px;
+}
+.news_area
+{background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-image: url(../images/bg1.jpeg);
+    background-attachment: fixed;
+	}
+.newsd
+{      border-radius: 35px;
+    border: 0px;
+    background:#8b0d98;
+	}
+    .newsd .panel-heading
+{   border-radius: 35px;
+    border: 55px;
+    background: #ffde09;
+    padding: 11px 0;
+    text-align: center;
+    color: #37264e;
+    border-bottom: 5px solid #a126a4;
+}
+
+.news-item td
+{padding: 0px 5px;
+    color: #fff;
+    font-size: 13px;}
+.news-item td a
+{
+	 text-decoration:underline;
+	 color:#fff;
+}
+.newsd h4 {
+    padding-top: 6px;
+    color: #fff;
+    /* border-bottom: 1px solid #ddd; */
+    background: #ff06ab;
+    border-top-left-radius: 22px;
+    font-size: 18px;
+	font-weight:normal;
+}
+.newsd h6
+{    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #fff;
+    
+}
+.newsd .panel-footer
+{
+	display:none;
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: 51px !important;
+    max-height: 51px  !important;
+}
+.notice {
+        background-color: #fdfeff;
+    border-right: 0px dashed #7f7f84;
+    /* margin-bottom: 26px; */
+    /* -webkit-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2); */
+    -moz-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+    /* box-shadow: 0 1px 8px -1px rgba(0,0,0,.2); */
+    margin: 1px auto;
+    /* height: 51px; */
+    font-size: 16px;
+    color: #cabebe;
+    text-align: center;
+    line-height: 1.9;
+}
+.notice-sm {
+    padding: 10px;
+    font-size: 80%;
+}
+.notice-lg {
+    padding: 35px;
+    font-size: large;
+}
+.notice-success {
+    border-color: #80D651;
+}
+.notice-success>strong {
+    color: #80D651;
+}
+.notice-info {
+     border-color: #45ABCD;
+    background: #42a5f5;
+    border-bottom-right-radius: 16px;
+    border-top-left-radius: 22px;
+}
+.notice-info>strong {
+      color: #ffffff;
+    /* font-size: 16px; */
+    font-weight: 400;
+    line-height: 2;
+}
