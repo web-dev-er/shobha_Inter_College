@@ -8786,6 +8786,8 @@ button.bg-dark:focus {
 
 .text-uppercase {
   text-transform: uppercase !important;
+  font-weight: 900;
+  font-size: x-large;
 }
 
 .text-capitalize {
